@@ -7,7 +7,7 @@ input_parser = import_module("github.com/kurtosis-tech/eth-network-package/packa
 
 # Constants
 CLIENT_SERVICE_NAME_PREFIX = "el-client-"
-CLIENT_LOG_LEVEL = "3"
+CLIENT_LOG_LEVEL = "vvv"
 CLIENT_IMAGE = input_parser.DEFAULT_EL_IMAGES["reth"]
 GLOBAL_LOG_LEVEL = ""
 
