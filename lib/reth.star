@@ -14,7 +14,7 @@ GLOBAL_LOG_LEVEL = ""
 GENESIS_DATA_GENERATION_TIME = 5 * time.second
 NODE_STARTUP_TIME = 5 * time.second
 
-def run(plan, network_params, el_genesis_data, image = CLIENT_IMAGE, extra_params = [], existing_el_clients = []):
+def run(plan, el_genesis_data, image = CLIENT_IMAGE, extra_params = [], existing_el_clients = []):
     launcher = reth.new_reth_launcher(
         el_genesis_data,
     )
