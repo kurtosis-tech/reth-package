@@ -27,7 +27,11 @@ def run(plan, el_genesis_data, image = CLIENT_IMAGE, extra_params = [], existing
         CLIENT_LOG_LEVEL,
         GLOBAL_LOG_LEVEL,
         # If empty, the node will be launched as a bootnode
-        existing_el_clients,  # existing_el_clients
+        existing_el_clients,  # existing_el_clients,
+        0,
+        0,
+        0,
+        0,
         extra_params,  # extra_params
     )
 
